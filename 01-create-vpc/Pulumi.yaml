@@ -1,0 +1,11 @@
+name: 01-create-vpc
+description: Code to create a basic VPC
+runtime:
+  name: python
+  options:
+    toolchain: pip
+    virtualenv: venv
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-python

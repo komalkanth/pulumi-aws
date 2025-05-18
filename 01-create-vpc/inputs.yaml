@@ -1,0 +1,13 @@
+config:
+  name: my-pulumi-vpc
+  primary_cidr: 10.10.0.0/16
+  subnet_data:
+    - name: pvt-subnet-az1
+      cidr: 10.10.0.0/24
+      az_id: use1-az1
+    - name: pvt-subnet-az2
+      cidr: 10.10.1.0/24
+      az_id: use1-az2
+    - name: pvt-subnet-az3
+      cidr: 10.10.2.0/24
+      az_id: use1-az2
